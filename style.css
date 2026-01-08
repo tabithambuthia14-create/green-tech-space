@@ -59,3 +59,37 @@ footer {
     font-size: 0.9rem;
     color: #9fbfb2;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #0b3d2e, #0f1f17);
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.navbar h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #d8f3e6;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #6ee7b7;
+}
